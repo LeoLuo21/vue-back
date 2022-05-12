@@ -1,0 +1,23 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: vue-backend
+  datasource:
+    driverClassName: org.sqlite.JDBC
+    url: jdbc:sqlite:school.db
+    username:
+    password:
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+
+secret:
+  somerandomscret
